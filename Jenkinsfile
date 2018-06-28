@@ -3,7 +3,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "change-me"
+    DEPLOY_NAMESPACE = "jx-staging-pue"
   }
   stages {
     stage('Validate Environment') {
